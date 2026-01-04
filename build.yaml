@@ -19,8 +19,8 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: totem_left
+    shield: totemish_left
   - board: seeeduino_xiao_ble
-    shield: totem_right
+    shield: totemish_right
   - board: seeeduino_xiao_ble
     shield: settings_reset
