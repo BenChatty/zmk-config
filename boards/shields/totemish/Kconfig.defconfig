@@ -1,4 +1,4 @@
-if SHIELD_MY_KEYBOARD_DONGLE
+if SHIELD_TOTEMish_DONGLE
 
 config ZMK_KEYBOARD_NAME
     default "TOTEMish"
@@ -27,19 +27,12 @@ endif
 
 
 
-if SHIELD_TOTEMish_LEFT
-
-config ZMK_KEYBOARD_NAME
-    default "TOTEMish"
-
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
-
-endif
-
-if SHIELD_TOTEMish_LEFT || SHIELD_TOTEMish_RIGHT
+if SHIELD_TOTEMish_LEFT || SHIELD_TOTEMish_RIGHT || SHIELD_TOTEMish_DONGLE
 
 config ZMK_SPLIT
+    default y
+
+config ZMK_BLE
     default y
 
 endif
