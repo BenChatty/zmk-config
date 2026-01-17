@@ -18,16 +18,16 @@
 #
 ---
 include:
-  - board: xiao_ble
+  - board: seeeduino_xiao_ble
     shield: totemish_dongle
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
-  - board: xiao_ble
+  - board: seeeduino_xiao_ble
     shield: settings_reset
 
-  - board: xiao_ble
+  - board: seeeduino_xiao_ble
     shield: totemish_left
-  - board: xiao_ble
+  - board: seeeduino_xiao_ble
     shield: totemish_right
   
 
